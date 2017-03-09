@@ -12,7 +12,7 @@ var trivia = [
       	answerOption4: "Vaughn Hebron",
       	correctAnswer: function(){return this.answerOption1},
         postAnswer: function(){
-          $('#answerBlock').html('<h4>Olandis Gary</h4>'+ '<br>' + '<h5>Olandis Gary had 1,159 Rushing yards in his 1999 season.</h5>' + '<img class="img-thumbnail" src="http://i.giphy.com/FSrifHD1XAyw8.gif" />');
+          $('#answerBlock').html('<h4>Olandis Gary</h4>'+ '<br>' + '<h5>Olandis Gary had 1,159 Rushing yards in his 1999 season.</h5>' + '<img class="img-thumbnail" src="http://s3.amazonaws.com/br-cdn/temp_images/2014/11/09/2014-11-0914_22_03.gif" />');
         }
       },
 
