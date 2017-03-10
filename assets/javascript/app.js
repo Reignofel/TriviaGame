@@ -101,26 +101,26 @@ var trivia = [
       },
 
     {
-        question: "?",
-       	answerOption1: "",
-      	answerOption2: "$",
-      	answerOption3: "$",
-      	answerOption4: "$",
+        question: "What is the Denver Broncos nickname?",
+       	answerOption1: "Big Orange",
+      	answerOption2: "The Wild Horses",
+      	answerOption3: "Bronco Busters",
+      	answerOption4: "Orange Crush",
       	correctAnswer: function(){return this.answerOption4},
         postAnswer: function(){
-          $('#answerBlock').html('<h4>$</h4>'+ '<br>' + '<h5></h5>' + '<img src="" />');
+          $('#answerBlock').html('<h4>Orange Crush</h4>'+ '<br>' + '<h5>The nickname, Orange Crush was popularized early in the 1977 season</h5>' + '<img src="https://usatbroncoswire.files.wordpress.com/2016/10/giphy.gif?w=1000" />');
         }
       },
 
     {
-        question: "?",
-       	answerOption1: "",
-      	answerOption2: "",
-      	answerOption3: "",
-      	answerOption4: "",
+        question: "In the 2013 season, which Broncos Wide Receiver had the second most touchdowns in the NFL?",
+       	answerOption1: "Wes Welker",
+      	answerOption2: "Emmanuel Sanders",
+      	answerOption3: "Demaryius Thomas",
+      	answerOption4: "Randy Moss",
         correctAnswer: function(){return this.answerOption3},
         postAnswer: function(){
-          $('#answerBlock').html('<h4></h4>'+ '<br>' + '<h5></h5>' + '<img src="" />');
+          $('#answerBlock').html('<h4>Demaryius Thomas</h4>'+ '<br>' + '<h5>In the 2013 Season Demaryius Thomas went for 1,430 yards with 14 Touchdowns. </h5>' + '<img src="http://i.giphy.com/MJGn4pdXPwWTS.gif" />');
         }
       }
   ];
