@@ -1,5 +1,5 @@
 // GLOBAL VARIABLES
-var gameTimer = 30;
+var gameTimer = 35;
 var score = 0;
 var questionNumber = 0;
 
