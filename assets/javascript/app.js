@@ -1,5 +1,5 @@
 // GLOBAL VARIABLES
-var gameTimer = 20;
+var gameTimer = 30;
 var score = 0;
 var questionNumber = 0;
 
@@ -226,7 +226,7 @@ var checkAnswer4 = function(){
 // ----------------------------------------------------------------
 // TIMERS
 function run(){
-    gameTimer=15;
+    gameTimer=30;
       counter = setInterval(increment, 1000);
     }
     function increment(){
